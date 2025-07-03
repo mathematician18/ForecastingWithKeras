@@ -1,0 +1,35 @@
+ ⚡ Electricity Consumption Forecasting with LSTM
+
+![Model Architecture](media/forecast_plot.png) 
+
+Hourly electricity consumption forecasting using **LSTM** (Keras), validated through residual analysis and statistical testing.
+**Mean absolute error (MAE): 1.33%** — Ideal for optimization in the energy sector.
+
+## 📌 Key Results
+- **MAE:** 83.09 MW (1.33% of average consumption).  
+- **RMSE:** 112.07 MW (1.79%).  
+- Validation with Shapiro-Wilk and D'Agostino tests.  
+- [See full technical report](Technical_Report.pdf).  
+
+## 🛠️ Tecnologías
+- **Libreries**: TensorFlow 2.13.0 TensorFlow/Keras 2.13.0, Pandas, Numpy 1.24.3, Matplotlib/Seaborn, ipwidgets.  
+- **Preprocesessing**: Normalización, manejo de datos faltantes.  
+- **Model**: LSTM con Dropout (20%) y Early Stopping. 
+- **Validation:** Residual analysis + statistical tests. 
+- **Enviroment**: Python 3.10.  
+
+## 🚀 How Ejecute
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tu-usuario/ForecastingWithKeras.git
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the script:
+   ```bash
+   python src/ForecastingWithKeras.py
+   ```
+## 📌 **Note:** The original data is available at 
+   [Kaggle](https://www.kaggle.com/datasets/stefancomanita/hourly-electricity-consumption-and-production)
