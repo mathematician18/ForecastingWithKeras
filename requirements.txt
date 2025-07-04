@@ -1,0 +1,12 @@
+# Versión de Python (esto es informativo, no se instala directamente con pip)
+# Python==3.10
+
+# Librerías y sus versiones
+numpy==1.24.3
+tensorflow==2.13.0
+pandas
+scipy
+matplotlib
+seaborn
+ipywidgets
+scikit-learn
